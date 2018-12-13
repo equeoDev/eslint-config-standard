@@ -9,6 +9,10 @@
     "sourceType": "module"
   },
 
+  "extends": [
+    "plugin:react/recommended"
+  ],
+
   "env": {
     "es6": true,
     "node": true
