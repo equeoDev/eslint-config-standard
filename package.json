@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-equeo",
   "description": "JavaScript Standard Style - ESLint Shareable Config",
-  "version": "12.0.0",
+  "version": "12.1.0",
   "author": {
-    "name": "Feross Aboukhadijeh",
-    "email": "feross@feross.org",
-    "url": "https://feross.org"
+    "name": "Henry Moews",
+    "email": "henry.moews@equeo.de",
+    "url": "https://equeo.de"
   },
   "bugs": {
     "url": "https://github.com/standard/eslint-config-standard/issues"
