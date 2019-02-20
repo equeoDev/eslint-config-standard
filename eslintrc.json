@@ -31,6 +31,12 @@
     "window": false
   },
 
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+
   "rules": {
     "accessor-pairs": "error",
     "arrow-spacing": ["error", { "before": true, "after": true }],
@@ -153,7 +159,7 @@
     "no-unsafe-finally": "error",
     "no-unsafe-negation": "error",
     "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true, "allowTaggedTemplates": true }],
-    "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }],
+    "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true, "argsIgnorePattern": "resolve|reject|error" }],
     "no-use-before-define": ["error", { "functions": false, "classes": false, "variables": false }],
     "no-useless-call": "error",
     "no-useless-computed-key": "error",
@@ -168,7 +174,7 @@
     "one-var": ["error", { "initialized": "never" }],
     "operator-linebreak": ["error", "after", { "overrides": { "?": "before", ":": "before" } }],
     "padded-blocks": ["error", { "blocks": "never", "switches": "never", "classes": "always" }],
-    "prefer-const": ["error"],
+    "prefer-const": ["warning"],
     "prefer-promise-reject-errors": "error",
     "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
     "rest-spread-spacing": ["error", "never"],
